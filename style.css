@@ -165,7 +165,7 @@ h1 { font-size: clamp(40px, 5.1vw, 68px); line-height: 1.08; margin-bottom: 22px
 .hero-art-image {
   position: absolute;
   inset: 0;
-  background: url("https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=85") center 48% / cover;
+  background: url("assets/images/spoiler.webp") center 48% / cover;
   filter: saturate(.8);
   transform: scale(1.02);
 }

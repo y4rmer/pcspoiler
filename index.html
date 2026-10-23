@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#0a0b10" />
   <meta name="description" content="Discover, explore, and download your next favorite games." />
-  <title>PCSpoiler</title>
+  <title>GameVault — Discover Your Next World</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="ambient ambient-one"></div>
   <div class="ambient ambient-two"></div>
@@ -19,14 +20,15 @@
   <header class="topbar">
     <a class="brand" href="#" aria-label="GameVault home">
       <span class="brand-icon">G</span>
-      <span>PC<span class="brand-accent">SPOILER</span></span>
+      <span>GAME<span class="brand-accent">VAULT</span></span>
     </a>
 
     <nav class="main-nav" aria-label="Main navigation">
       <a class="nav-link active" href="#discover">Discover</a>
       <a class="nav-link" href="#action">Action</a>
-      <a class="nav-link" href="#rpg">RPG</a>
-      <a class="nav-link" href="#three-d">3D Worlds</a>
+      <a class="nav-link" href="#racing">Racing</a>
+      <a class="nav-link" href="#shooter">Shooter</a>
+      <a class="nav-link" href="#stealth">Stealth</a>
     </nav>
 
     <a class="header-cta" href="#discover">
@@ -37,15 +39,26 @@
   <main class="container">
     <section class="hero" id="discover">
       <div class="hero-content">
-        <div class="eyebrow"><span class="live-dot"></span> YOUR NEXT ADVENTURE STARTS HERE</div>
-        <h1>Enter your next<br /> <span class="gradient-text">gaming universe.</span></h1>
+        <div class="eyebrow">
+          <span class="live-dot"></span>
+          YOUR NEXT ADVENTURE STARTS HERE
+        </div>
+
+        <h1>
+          Enter your next<br />
+          <span class="gradient-text">gaming universe.</span>
+        </h1>
+
         <p class="hero-description">
           Legendary adventures. Epic battles. New worlds.
           Find your next obsession, all in one place.
         </p>
+
         <a class="primary-button" href="#featured">
-          <span>Explore collection</span><span aria-hidden="true">↘</span>
+          <span>Explore collection</span>
+          <span aria-hidden="true">↘</span>
         </a>
+
         <div class="hero-meta">
           <span><span class="meta-dot"></span> Curated game collection</span>
           <span>Built for explorers</span>
@@ -55,16 +68,21 @@
       <div class="hero-art" aria-label="Featured game artwork">
         <div class="hero-art-image"></div>
         <div class="hero-art-shade"></div>
+
         <div class="hero-art-content">
           <span class="art-label">THE SPOTLIGHT</span>
           <h2>Worlds<br />without limits.</h2>
           <p>Your next great escape awaits.</p>
         </div>
+
         <div class="art-orbit orbit-one"></div>
         <div class="art-orbit orbit-two"></div>
         <div class="art-glow"></div>
+
         <div class="floating-chip chip-top">✦ DISCOVER MORE</div>
-        <div class="floating-chip chip-bottom">PLAY YOUR WAY <span>↗</span></div>
+        <div class="floating-chip chip-bottom">
+          PLAY YOUR WAY <span>↗</span>
+        </div>
       </div>
     </section>
 
@@ -74,20 +92,36 @@
           <div class="eyebrow">THE COLLECTION</div>
           <h2>Find your next <span class="gradient-text">favorite.</span></h2>
         </div>
-        <div class="collection-count" id="collection-count">Loading games...</div>
+
+        <div class="collection-count" id="collection-count">
+          Loading games...
+        </div>
       </div>
 
       <div class="discovery-toolbar">
         <div class="tabs" role="tablist" aria-label="Sort games">
-          <button class="tab active" role="tab" aria-selected="true" data-sort="hot">🔥 Hot</button>
-          <button class="tab" role="tab" aria-selected="false" data-sort="trending">↗ Trending</button>
-          <button class="tab" role="tab" aria-selected="false" data-sort="latest">✦ Latest</button>
-          <button class="tab" role="tab" aria-selected="false" data-sort="mostPlayed">◉ Most played</button>
+          <button class="tab active" role="tab" aria-selected="true" data-sort="hot">
+            🔥 Hot
+          </button>
+          <button class="tab" role="tab" aria-selected="false" data-sort="trending">
+            ↗ Trending
+          </button>
+          <button class="tab" role="tab" aria-selected="false" data-sort="latest">
+            ✦ Latest
+          </button>
+          <button class="tab" role="tab" aria-selected="false" data-sort="mostPlayed">
+            ◉ Most played
+          </button>
         </div>
 
         <label class="search-box">
           <span class="search-icon" aria-hidden="true">⌕</span>
-          <input id="game-search" type="search" placeholder="Search games..." autocomplete="off" />
+          <input
+            id="game-search"
+            type="search"
+            placeholder="Search games..."
+            autocomplete="off"
+          />
           <kbd>⌘ K</kbd>
         </label>
       </div>
@@ -95,63 +129,108 @@
       <div id="search-status" class="search-status" aria-live="polite"></div>
 
       <div id="featured-grid" class="featured-grid">
-        <div class="loading-state">Loading your next adventure<span>...</span></div>
+        <div class="loading-state">
+          Loading your next adventure<span>...</span>
+        </div>
       </div>
     </section>
 
+    <!-- ACTION CATEGORY -->
     <section class="genre-section" id="action">
       <div class="section-heading genre-heading">
         <div>
           <div class="eyebrow">HIGH-OCTANE EXPERIENCES</div>
-          <h2><span class="genre-icon">⚔</span> Action <span class="muted-heading">games</span></h2>
+          <h2>
+            <span class="genre-icon">⚔</span>
+            Action <span class="muted-heading">games</span>
+          </h2>
           <p>Fast reflexes. Big moments. No turning back.</p>
         </div>
+
         <div class="swiper-controls">
           <button class="arrow-button" data-target="action-track" data-direction="-1" aria-label="Scroll action games left">←</button>
           <button class="arrow-button" data-target="action-track" data-direction="1" aria-label="Scroll action games right">→</button>
         </div>
       </div>
+
       <div class="swiper-track" id="action-track"></div>
     </section>
 
-    <section class="genre-section" id="rpg">
+    <!-- RACING CATEGORY -->
+    <section class="genre-section" id="racing">
       <div class="section-heading genre-heading">
         <div>
-          <div class="eyebrow">YOUR STORY, YOUR RULES</div>
-          <h2><span class="genre-icon">✧</span> RPG <span class="muted-heading">realms</span></h2>
-          <p>Build your legend, one quest at a time.</p>
+          <div class="eyebrow">BUILT FOR SPEED</div>
+          <h2>
+            <span class="genre-icon">🏎</span>
+            Racing <span class="muted-heading">games</span>
+          </h2>
+          <p>Push the limits. Chase victory. Own the road.</p>
         </div>
+
         <div class="swiper-controls">
-          <button class="arrow-button" data-target="rpg-track" data-direction="-1" aria-label="Scroll RPG games left">←</button>
-          <button class="arrow-button" data-target="rpg-track" data-direction="1" aria-label="Scroll RPG games right">→</button>
+          <button class="arrow-button" data-target="racing-track" data-direction="-1" aria-label="Scroll racing games left">←</button>
+          <button class="arrow-button" data-target="racing-track" data-direction="1" aria-label="Scroll racing games right">→</button>
         </div>
       </div>
-      <div class="swiper-track" id="rpg-track"></div>
+
+      <div class="swiper-track" id="racing-track"></div>
     </section>
 
-    <section class="genre-section" id="three-d">
+    <!-- SHOOTER CATEGORY -->
+    <section class="genre-section" id="shooter">
       <div class="section-heading genre-heading">
         <div>
-          <div class="eyebrow">STEP INTO THE SCENE</div>
-          <h2><span class="genre-icon">◈</span> 3D <span class="muted-heading">worlds</span></h2>
-          <p>Immersive dimensions. Extraordinary places.</p>
+          <div class="eyebrow">LOCK. AIM. FIRE.</div>
+          <h2>
+            <span class="genre-icon">✧</span>
+            Shooter <span class="muted-heading">games</span>
+          </h2>
+          <p>Test your aim and fight through intense battles.</p>
         </div>
+
         <div class="swiper-controls">
-          <button class="arrow-button" data-target="three-d-track" data-direction="-1" aria-label="Scroll 3D games left">←</button>
-          <button class="arrow-button" data-target="three-d-track" data-direction="1" aria-label="Scroll 3D games right">→</button>
+          <button class="arrow-button" data-target="shooter-track" data-direction="-1" aria-label="Scroll shooter games left">←</button>
+          <button class="arrow-button" data-target="shooter-track" data-direction="1" aria-label="Scroll shooter games right">→</button>
         </div>
       </div>
-      <div class="swiper-track" id="three-d-track"></div>
+
+      <div class="swiper-track" id="shooter-track"></div>
+    </section>
+
+    <!-- STEALTH CATEGORY -->
+    <section class="genre-section" id="stealth">
+      <div class="section-heading genre-heading">
+        <div>
+          <div class="eyebrow">MOVE IN SILENCE</div>
+          <h2>
+            <span class="genre-icon">◈</span>
+            Stealth <span class="muted-heading">games</span>
+          </h2>
+          <p>Stay hidden. Plan every move. Strike unseen.</p>
+        </div>
+
+        <div class="swiper-controls">
+          <button class="arrow-button" data-target="stealth-track" data-direction="-1" aria-label="Scroll stealth games left">←</button>
+          <button class="arrow-button" data-target="stealth-track" data-direction="1" aria-label="Scroll stealth games right">→</button>
+        </div>
+      </div>
+
+      <div class="swiper-track" id="stealth-track"></div>
     </section>
 
     <section class="bottom-banner">
       <div class="banner-symbol">✳</div>
+
       <div>
         <div class="eyebrow">ALWAYS SOMETHING NEW</div>
         <h2>Your next world is one click away.</h2>
         <p>Explore the collection and find your next adventure.</p>
       </div>
-      <a href="#discover" class="primary-button">Back to discovery ↑</a>
+
+      <a href="#discover" class="primary-button">
+        Back to discovery ↑
+      </a>
     </section>
   </main>
 
@@ -160,11 +239,14 @@
       <span class="brand-icon">G</span>
       <span>GAME<span class="brand-accent">VAULT</span></span>
     </a>
+
     <p>A universe of games. One place to explore.</p>
     <span class="footer-copy">© <span id="year"></span> GameVault</span>
   </footer>
+
   <script src="json.js" defer></script>
-<script src="script.js" defer></script>
+  <script src="script.js" defer></script>
+
   <noscript>This website requires JavaScript to load the game collection.</noscript>
 </body>
 </html>

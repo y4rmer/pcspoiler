@@ -14,7 +14,24 @@ const GAME_INDEX = [
     "trendingScore": 88,
     "releaseDate": "2026-04-27",
     "plays": 98200,
-    "badge": "HOT"
+    "badge": "CLASSIC"
+  }, 
+  {
+    "id": "assassins-creed-3",
+    "name": "Assassin's Creed 3",
+    "description": "Download Assassin's Creed 3 PC game highly compressed",
+    "image": "assets/images/assasinscreed3.jpg",
+    "downloadpath": "https://gofile.io/d/y7ObnR",
+    "category": "Action",
+    "tags": [
+      "Stealth",
+      "Adventure"
+    ],
+    "hotScore": 92,
+    "trendingScore": 90,
+    "releaseDate": "2026-07-27",
+    "plays": 98200,
+    "badge": "CLASSIC"
   },
   {
     "id": "nfs-carbon",
@@ -48,6 +65,23 @@ const GAME_INDEX = [
     "trendingScore": 84,
     "releaseDate": "2026-04-27",
     "plays": 76500,
+    "badge": "POPULAR"
+  },
+  {
+    "id": "mortal-combat-x",
+    "name": "Mortal Combat X",
+    "description": "Download Mortal Combat X game",
+    "image": "assets/images/mortalkombatx.jpg",
+    "downloadpath": "https://muhammadniaz.link/cl10r5di14xm.html",
+    "category": "Action",
+    "tags": [
+      "Super Powers",
+      "Combat"
+    ],
+    "hotScore": 80,
+    "trendingScore": 84,
+    "releaseDate": "2026-08-27",
+    "plays": 156500,
     "badge": "POPULAR"
   },
   {
@@ -99,7 +133,7 @@ const GAME_INDEX = [
     "trendingScore": 90,
     "releaseDate": "2026-04-27",
     "plays": 103500,
-    "badge": "HOT"
+    "badge": "CLASSIC"
   },
   {
     "id": "prototype",
@@ -150,7 +184,7 @@ const GAME_INDEX = [
     "trendingScore": 94,
     "releaseDate": "2026-04-27",
     "plays": 138000,
-    "badge": "HOT"
+    "badge": "POPULAR"
   },
   {
     "id": "transformers-the-game",
@@ -201,7 +235,7 @@ const GAME_INDEX = [
     "trendingScore": 98,
     "releaseDate": "2026-04-27",
     "plays": 152000,
-    "badge": "HOT"
+    "badge": "POPULAR"
   },
   {
     "id": "nfs-shift-2009",
@@ -269,7 +303,7 @@ const GAME_INDEX = [
     "trendingScore": 89,
     "releaseDate": "2026-04-27",
     "plays": 96800,
-    "badge": "HOT"
+    "badge": "POPULAR"
   },
   {
     "id": "nfs-underground-2",
@@ -286,7 +320,7 @@ const GAME_INDEX = [
     "trendingScore": 93,
     "releaseDate": "2026-04-27",
     "plays": 117000,
-    "badge": "HOT"
+    "badge": "POPULAR"
   },
   {
     "id": "hitman-codename-47",
@@ -372,6 +406,108 @@ const GAME_INDEX = [
     "releaseDate": "2026-04-27",
     "plays": 85600,
     "badge": "POPULAR"
+  }, 
+  {
+    "id": "far-cry2",
+    "name": "Far Cry 2",
+    "description": "Download Far Cry 2 game right here",
+    "image": "assets/images/Max+Payne+1+-+AllTypeHacks.jpg",
+    "downloadpath": "https://files.alltypehacks.in/0b61db37835f6af1",
+    "category": "Shooter",
+    "tags": [
+      "Noir",
+      "Shooter"
+    ],
+    "hotScore": 79,
+    "trendingScore": 78,
+    "releaseDate": "2026-7-27",
+    "plays": 88000,
+    "badge": "HOT"
+  },
+   {
+    "id": "far-cry3",
+    "name": "Far Cry 3",
+    "description": "Download Far Cry 3 game right here",
+    "image": "assets/images/Max+Payne+1+-+AllTypeHacks.jpg",
+    "downloadpath": "https://files.alltypehacks.in/0b61db37835f6af1",
+    "category": "Shooter",
+    "tags": [
+      "Noir",
+      "Shooter"
+    ],
+    "hotScore": 80,
+    "trendingScore": 80,
+    "releaseDate": "2026-07-27",
+    "plays": 56000,
+    "badge": "HOT"
+  },
+   {
+    "id": "far-cry4",
+    "name": "Far Cry 4",
+    "description": "Downloada Far Cry 4 game right here",
+    "image": "assets/images/Max+Payne+1+-+AllTypeHacks.jpg",
+    "downloadpath": "https://files.alltypehacks.in/0b61db37835f6af1",
+    "category": "Shooter",
+    "tags": [
+      "Noir",
+      "Shooter"
+    ],
+    "hotScore": 83,
+    "trendingScore": 87,
+    "releaseDate": "2026-07-27",
+    "plays": 188700,
+    "badge": "POPULAR"
+  },  
+   {
+    "id": "gta-v",
+    "name": "GTA V",
+    "description": "Download GTA 5 game here",
+    "image": "assets/images/gta5.jpg",
+    "downloadpath": "https://muhammadniaz.link/e2zcwjvxxr4l.html",
+    "category": "Action",
+    "tags": [
+      "Open World",
+      "Adventure"
+    ],
+    "hotScore": 97,
+    "trendingScore": 96,
+    "releaseDate": "2026-09-27",
+    "plays": 245000,
+    "badge": "POPULAR"
+  },
+  {
+    "id": "the-amazing-spiderman",
+    "name": "The Amazing Spiderman",
+    "description": "Download The Amazing Spiderman game here",
+    "image": "assets/images/250px-GTASABOX.jpg",
+    "downloadpath": "https://files.alltypehacks.in/c9581868a9a6da73",
+    "category": "Action",
+    "tags": [
+      "Open World",
+      "Hero"
+    ],
+    "hotScore": 70,
+    "trendingScore": 70,
+    "releaseDate": "2026-07-27",
+    "plays": 65000,
+    "badge": "CLASSIC"
+  },
+  {
+    "id": "tha-amazing-spiderman-2",
+    "name": "The Amazing Spiderman 2",
+    "description": "Download The Amazing Spiderman 2 game here",
+    "image": "assets/images/250px-GTASABOX.jpg",
+    "downloadpath": "https://files.alltypehacks.in/c9581868a9a6da73",
+    "category": "Action",
+    "tags": [
+      "Hero",
+      "Adventure"
+    ],
+    "hotScore": 74,
+    "trendingScore": 74,
+    "releaseDate": "2026-8-27",
+    "plays": 165000,
+    "badge": "HOT"
   },
   {
     "id": "max-payne-2",

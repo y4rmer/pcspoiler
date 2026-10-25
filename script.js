@@ -6,7 +6,7 @@
 
 const state = {
   games: [],
-  sort: "hot",
+  sort: "latest",
   query: ""
 };
 
